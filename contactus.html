@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> SAMPLE WEBSITE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="table.css">
+    <script src="https://kit.fontawesome.com/8945ca25d8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+   
+    <a class='backtohome' href="./Iindex.html"><i class="fa-solid fa-house"></i>Go Back To Home</a>
+
+    <div class="main background">
+        <div class="main__container">
+            <div class="main__content">
+                <h1>Contact Us</h1>
+                <h6>Have Some Question?</h6>  
+            </div>
+            <div class="form">
+            <form> <img src="./img/contsct.svg"><br/>
+                <label htmlFor='fname' >Name : </label> <br/>
+                <input type="text"><br/>
+                <label htmlFor='email'>Email-id : </label> <br/>
+                <input type="text"><br/>
+                <label htmlFor='phone'>phone: </label> <br/>
+                <input type="text"><br/>
+                <label htmlFor='ques'>Question : </label> <br/>
+                  <select name="ques" id="ques"  >
+                      <option value="select">Select Option</option>
+                      <option value="AboutStore">About Store</option>
+                      <option value="locations">locations</option>
+                      <option value="PaymentOptions">PaymentOptions</option>
+                      <option value="other">Other</option>
+                  </select> <br/>
+                  <br/>
+                  <button className='button' type='submit' value='Submit' autoComplete='off' 
+                  name='button' >Submit</button> 
+            </form>
+        </div> 
+        </div>
+
+    <div class="footer__container">
+        <div class="footer__links">
+            <div class="footer__links--wrappers">
+                <div class="footer__links--items">
+                    <h2>Our Company</h2>
+                        <a href="">About Us</a>
+                        <a href="">Charitable Giving</a>
+                        <a href="">Newsroom</a>
+                        <a href="">Careers</a>
+                        <a href="">Contest Rules</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>Customer Care</h2>
+                        <a href="">Order Status</a>
+                        <a href="">Shipping Information</a>
+                        <a href="">Returns & Exchange</a>
+                        <a href="">Gift Card balance</a>
+                        <a href="">Contact Us</a>
+                </div>
+            </div>
+            <div class="footer__links--wrappers">
+                <div class="footer__links--items">
+                    <h2>Buying Guides</h2>
+                        <a href="">Site Map</a>
+                        <a href="">Gem Information</a>
+                        <a href="">Creat Your Own Guide</a>
+                        <a href="">Gem Size Guide</a>
+                        <a href="">Purity Guide</a>
+                </div>
+                <div class="footer__links--items">
+                    <h2>More Ways To Shop</h2>
+                        <a href="">Find A Store</a>
+                        <a href="">Shop By Catalog</a>
+                        <a href="">Request A Catalog</a>
+                        <a href="">Find A Wish List</a>
+                        <a href="">Buy Online Pick-up In Store</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media">
+            <div class="social__media--wrap">
+                <div class="footer__logo">
+                    <a href="/" id="footer__logo"><i class="fas faa-gem"></i>NEXT GEM</a>
+                </div>
+                <p class="website__rights"> Ⓒ NEXT GEM 2022, All rights reserved</p>
+                <div class="social__icons">
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fa-brands fa-instagram-square"></i></a>
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="/" class="social__icon--link" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

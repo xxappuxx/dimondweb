@@ -1,0 +1,9 @@
+->working part
+	contact us & about us
+
+->home redirect to index page itsself
+
+->product part is still pending
+	in home page "View product" will take us to products but its still pending
+
+*******"responsive"******
